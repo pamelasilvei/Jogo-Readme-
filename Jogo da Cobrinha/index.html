@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🐍 Jogo da Cobrinha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐍 Snake Game</h1>
+    <p class="score">Pontuação: <span id="score">0</span></p>
+    <canvas id="snake" width="400" height="400"></canvas>
+    <div class="game-over hidden" id="gameOver">
+      <h2>💀 Game Over</h2>
+      <p>Sua pontuação foi: <span id="finalScore">0</span></p>
+      <button onclick="restartGame()">Jogar Novamente</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
